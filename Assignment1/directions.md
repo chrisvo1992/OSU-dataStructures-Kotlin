@@ -1,10 +1,10 @@
-Problem 1 - Min Max
+**Problem 1 - Min Max**
 Write a function that receives a one dimensional array of integers and returns a Python
 tuple with two values - minimum and maximum values in the input array. You may assume
 that the input array will contain only integers and will have at least one element. You do not
 need to check for those conditions.
 
-Problem 2 - Fizz Buzz
+**Problem 2 - Fizz Buzz**
 Write a function that receives a StaticArray with integers and returns a new StaticArray
 object with the content from the original array, modified as follows:
 1) If the number in the original array is divisible by 3, the corresponding element in the
@@ -19,12 +19,12 @@ Content of the input array should not be changed. You may assume that the input 
 contain only integers and will have at least one element. You do not need to check for those
 conditions.
 
-Problem 3 - Reverse
+**Problem 3 - Reverse**
 Write a function that receives a StaticArray and reverses the order of the elements in the
 array. Reversal must be done ‘in place’, meaning the original input array will be modified.
 You may assume that the input array will contain at least one element.
 
-Problem 4 - Rotate
+**Problem 4 - Rotate**
 Write a function that receives two parameters - a StaticArray and an integer value (called
 steps ). The function will create and return a new StaticArray where all elements are from
 the original array but their position has shifted right or left steps number of times. Original
@@ -33,11 +33,11 @@ If steps is a positive integer, elements should be rotated right. Otherwise, rot
 left. Please see code examples below for the additional details. You may assume that the
 input array will have at least one element.
 
-Problem 5 - Range
+**Problem 5 - Range**
 Write a function that receives two integers start and end and returns a StaticArray that
 contains consecutive values that begin at start and end at end (inclusive).
 
-Problem 6 - Is Sorted?
+**Problem 6 - Is Sorted?**
 Write a function that receives a StaticArray and returns an integer that describes whether
 the array is sorted. Method should return 1 if the array is sorted in strictly ascending order.
 It should return 2 if the list is sorted in strictly descending order. Otherwise the method
@@ -47,7 +47,7 @@ When implementing this method, you may assume that values stored in the array ar
 the same type (either all numbers, or strings, or custom objects, but never a mix of those).
 You do not need to write checks for this condition.
 
-Problem 7 - Sort
+**Problem 7 - Sort**
 Write a function that receives a StaticArray and sorts its content in non-descending order.
 Sorting must be done ‘in place’, meaning the original input array will be modified.
 You may assume that the input array will contain at least one element and that values
@@ -58,7 +58,7 @@ efficient or fast, a simple insertion or bubble sort will suffice. Duplicates in
 can be placed in any relative order in the sorted array (in other words, your sort does not
 have to be ‘stable’).
 
-Problem 8 - Remove Duplicates
+**Problem 8 - Remove Duplicates**
 Write a function that receives a StaticArray where the elements are already in sorted order
 and returns a new StaticArray with duplicate values removed. Original array should not be
 modified.
