@@ -1,18 +1,13 @@
-class FizzBuzz{
-    fun fizzBuzz(arr:List<Int>): MutableList<String> {
-        var output:MutableList<String> = arrayListOf()
-
-        for(value in arr){
-            if(value % 3 == 0 && value % 5 == 0){
-                output.add("fizzbuzz")
-            } else if (value % 5 ==0){
-                output.add("buzz")
-            } else if (value % 3 == 0){
-                output.add("fizz")
-            } else{
-                output.add(value.toString())
-            }
-        }
-    return output
-    }
-}
+class FizzBuzz:
+    def fizz_buzz(self, arr):
+        output = []
+        for i in range(0,len(arr)):
+            if arr[i] % 3 ==0 and  arr[i] % 5 == 0:
+                output.append("fizzbuzz")
+            elif arr[i] % 3 == 0:
+                output.append("fizz")
+            elif arr[i] % 5 == 0:
+                output.append("buzz")
+            else:
+                output.append(arr[i])
+        return output
